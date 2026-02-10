@@ -64,6 +64,13 @@
 **2025.02 Update** 📆
 
 - **Added OmniSenseVoice Model for Faster Speech Recognition**
+
+**2026.02 Update** 📆
+
+- **🚀 Released Linly-Talker-Stream: A Brand New Real-time Streaming Interactive Architecture!** Built on WebRTC for low-latency audio-video transmission, supporting full-duplex conversation experience with true "listen-while-speaking" interaction mode.
+- **✋ Support for Interruptible Natural Conversations:** Introduced barge-in functionality, providing conversation experience closer to real human communication rhythm.
+- **🧩 Modular Multimodal Pipeline:** Reuses existing ASR/LLM/TTS/Avatar capabilities while adopting streaming processing framework for system refactoring.
+- **Project Repository:** [Linly-Talker-Stream](https://github.com/Kedreamix/Linly-Talker-Stream) - Perfect for building AI assistants, digital human receptionists, interactive guides, and other real-time interaction scenarios.
 ---
 
 <details>
@@ -135,6 +142,19 @@ The core features of the system include:
 
 The design philosophy of Linly-Talker is to create a new form of human-computer interaction that goes beyond simple Q&A. By integrating advanced technologies, it offers an intelligent digital human capable of understanding, responding to, and simulating human communication.
 
+> [!TIP]
+> 
+> **🚀 New Release: Linly-Talker-Stream** 
+> 
+> We've launched [Linly-Talker-Stream](https://github.com/Kedreamix/Linly-Talker-Stream), the real-time streaming interactive architecture version of Linly-Talker. Compared to traditional "turn-based" Q&A, the Stream version achieves:
+> 
+> - 🎤 **Full-Duplex Conversation**: User speech and digital human playback can occur simultaneously
+> - ⚡ **Low-Latency Pipeline**: Real-time audio-video transmission based on WebRTC
+> - ✋ **Interruptible Conversations**: Supports barge-in for more natural conversation experience
+> - 🧩 **Modular Architecture**: Reuses and extends existing multimodal capabilities
+> 
+> Perfect for building AI assistants, digital human receptionists, interactive guides, or live Q&A scenarios.
+
 ![The system architecture of multimodal human–computer interaction.](docs/HOI_en.png)
 
 > [!NOTE]
@@ -165,7 +185,7 @@ The design philosophy of Linly-Talker is to create a new form of human-computer 
 - [x] Integrated MuseTalk into the Linly-Talker WebUI.
 - [x] Added CosyVoice, which provides high-quality text-to-speech (TTS) functionality and voice cloning capabilities. Additionally, updated to Wav2Lipv2 to enhance image quality effects.
 - [x] Added Linly-Talker API documentation with detailed interface descriptions.
-- [ ] `Real-time` Speech Recognition (Enable conversation and communication between humans and digital entities using voice)
+- [x] `Real-time` Speech Recognition: **🚀 Released Linly-Talker-Stream**: Real-time streaming interactive architecture version, supporting full-duplex conversations, low-latency transmission, and interruptible dialogue functionality
 
 > [!IMPORTANT]
 >
@@ -1078,6 +1098,10 @@ Linly-Talker/
 
 - [https://github.com/RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
 - [https://github.com/coqui-ai/TTS](https://github.com/coqui-ai/TTS)
+
+**Real-time Streaming Version**
+
+- [Linly-Talker-Stream](https://github.com/Kedreamix/Linly-Talker-Stream) - Real-time streaming interactive architecture version
 
 ## License
 
